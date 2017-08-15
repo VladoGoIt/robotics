@@ -11,6 +11,8 @@ public class UniRobot {
         // Текущий курс (в градусах)
         private double course = 0;
 
+        private double z;
+
         // Теперь конструктор выполняет присваивание
         public UniRobot(double x, double y) {
             this.x = x;
